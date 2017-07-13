@@ -1,4 +1,4 @@
-FILENAME REFFILE '/home/ptilak0/sasuser.v94/Jacob Stats 2/DataFiles/SampleLumosity.csv';
+FILENAME REFFILE './Dataset/SampleLumosity.csv';
 PROC IMPORT DATAFILE=REFFILE DBMS=CSV OUT=LumosityData replace; 
 GETNAMES=YES;
 
